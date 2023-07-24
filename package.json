@@ -1,0 +1,14 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "pokemon project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kapaganti venkata sai satwik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
