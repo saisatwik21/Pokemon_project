@@ -1,7 +1,6 @@
-# Pokemon Project - README
+# Dice Generator Project - README
 
-![Untitled](https://github.com/saisatwik21/Pokemon_project/assets/97023666/6fb1c780-c112-44a7-823e-3757e9b11699)
-
+![Dice Generator](https://github.com/saisatwik21/dice-generator-project/assets/dice-image.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -14,7 +13,7 @@
 8. [Contact](#contact)
 
 ## 1. Introduction
-Welcome to the Pokemon Project! This web application allows users to explore information about different Pokemon, their abilities, types, and other stats. Users can catch, collect, and view details of various Pokemon. The project uses HTML, CSS, and JavaScript on the front end, and Node.js, Express.js, and Nodemon on the back end to power the server and handle requests.
+Welcome to the Dice Generator Project! This is a simple web application that simulates rolling two dice. Whenever you click on the "Generate" button, it will generate a random number for each die and display the results on the screen. The project uses HTML, CSS, and JavaScript on the front end, and Node.js and Express.js on the back end to handle the server and requests.
 
 ## 2. Technologies Used
 The following technologies were used in this project:
@@ -24,19 +23,19 @@ The following technologies were used in this project:
 - JavaScript
 - Node.js
 - Express.js
-- Nodemon (for server development)
+- Nodemon
 
 ## 3. Installation
-To run the Pokemon Project locally, follow these steps:
+To run the Dice Generator Project locally, follow these steps:
 
 1. Clone the repository to your local machine using Git.
 ```
-git clone https://github.com/saisatwik21/pokemon_project.git
+git clone https://github.com/saisatwik21/dice-generator-project.git
 ```
 
 2. Navigate to the project directory.
 ```
-cd pokemon_project
+cd dice-generator-project
 ```
 
 3. Install the necessary dependencies.
@@ -44,36 +43,32 @@ cd pokemon_project
 npm install
 ```
 
-4. Start the server using Nodemon.
+4. Start the server using Node.js and Express.js.
 ```
-npm start
+node app.js
 ```
 
-5. Open your web browser and go to `http://localhost:3000` to access the Pokemon Project.
+5. Open your web browser and go to `http://localhost:3000` to access the Dice Generator.
 
 ## 4. Usage
-- On the homepage, users can view a list of available Pokemon.
-- Clicking on a specific Pokemon will lead to its detailed page with information such as abilities, types, and stats.
-- Users can catch Pokemon, and their caught Pokemon will be listed on a separate page.
-- Explore and enjoy discovering various Pokemon and their attributes!
+- Click on the "Generate" button to roll the dice.
+- The results of the dice roll will be displayed on the screen.
+- Click on the "Generate" button again to roll the dice as many times as you want.
 
 ## 5. Features
-- Browse through a list of Pokemon and their details.
-- Catch and collect Pokemon.
-- View caught Pokemon in a separate section.
-
+- Simulate rolling two dice and display the results.
 
 ## 6. Contributing
 Contributions are welcome! If you find any issues or want to enhance the project with new features, open an issue or create a pull request. Please follow the project's code of conduct during the contribution process.
 
 ## 7. License
-This project is licensed under the [MIT License]
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## 8. Contact
 If you have any questions, suggestions, or feedback, you can reach us at:
-- Email:saisatwik175@gmail.com
-
+- Email: saisatwik175@gmail.com
+- GitHub: [saisatwik21](https://github.com/saisatwik21)
 
 ---
 
-We hope you enjoy using the Pokemon Project! Catch 'em all! 🐾
+We hope you enjoy using the Dice Generator Project! Roll the dice and have fun! 🎲
